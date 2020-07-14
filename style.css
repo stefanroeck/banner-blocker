@@ -22,3 +22,8 @@
 div[data-module='usertrackpanel']{
   display: none !important;
 }
+
+/* netflix.com */
+#cookie-disclosure {
+  display: none;
+}
