@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "Banner-Blocker",
+  "version": "1.0",
+  "description": "Blocks nasty cookie banners",
+  "icons": {
+    "48": "icons/icon-48.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*/*"
+      ],
+      "js": [
+        "script.js"
+      ],
+      "css": [
+        "style.css"
+      ]
+    }
+  ]
+}

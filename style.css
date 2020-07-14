@@ -1,0 +1,24 @@
+/* SZ.de */
+#dblclkbnr {
+  display: none;
+}
+
+/* Heise.de */
+#usercentrics-button {
+  display: none;
+}
+
+/* zeit.de */
+.paywall-footer {
+  display: none;
+}
+
+/* Gamestar.de */
+#cookiehint {
+    display: none;
+}
+
+/* zdf.de */
+div[data-module='usertrackpanel']{
+  display: none !important;
+}
