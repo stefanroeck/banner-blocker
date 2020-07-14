@@ -15,7 +15,7 @@
 
 /* Gamestar.de */
 #cookiehint {
-    display: none;
+  display: none !important;
 }
 
 /* zdf.de */
@@ -25,5 +25,10 @@ div[data-module='usertrackpanel']{
 
 /* netflix.com */
 #cookie-disclosure {
+  display: none;
+}
+
+/* Playstation.com */
+#privacy-header {
   display: none;
 }
